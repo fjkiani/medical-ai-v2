@@ -145,20 +145,28 @@ const About = () => {
               className="animate_left md:w-1/2"
             >
               <h4 className="font-medium uppercase text-black dark:text-white">
-                Launch Your SaaS Fast
-              </h4>
+              Beyond Human Vision              </h4>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                Packed with All Essential {"   "}
+              The Brains Behind MedicalAI's X-Ray Analysis"{"   "}
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
                   Integrations
                 </span>
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                ultricies lacus non fermentum ultrices. Fusce consectetur le.
+              Custom CNN Architecture: We've developed a unique CNN architecture optimized for chest X-ray analysis, drawing inspiration from proven pre-built models from AWS and  but fine-tuned for medical imaging precision.
               </p>
+              <br/>
+              <ul>
+              <p>
+              Transfer Learning Expertise: MedicalAI's models leverage transfer learning, allowing us to capitalize on pre-training from vast natural image datasets before specializing in medical images, ensuring both breadth and depth of understanding.            
+              </p>  
+              </ul>
+              <br/>
+         
+              
               <div>
-                <a
+                {/* know more button  */}
+                {/* <a
                   href="#"
                   className="group mt-7.5 inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary"
                 >
@@ -173,7 +181,7 @@ const About = () => {
                   >
                     <path d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z" />
                   </svg>
-                </a>
+                </a> */}
               </div>
             </motion.div>
             <motion.div

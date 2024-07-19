@@ -46,7 +46,7 @@ const Footer = () => {
                 </a>
 
                 <p className="mb-10 mt-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                MedicalAI is committed to addressing these challenges through our innovative AI-powered X-ray analysis platform
                 </p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
@@ -56,7 +56,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@solid.com
+                  jedi@jedilabs.org
                 </a>
               </motion.div>
 
@@ -109,12 +109,12 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a
+                      {/* <a
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Pricing
-                      </a>
+                      </a> */}
                     </li>
                   </ul>
                 </motion.div>
@@ -137,7 +137,7 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
+                  {/* <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
                     Support
                   </h4>
 
@@ -174,7 +174,7 @@ const Footer = () => {
                         Contact Us
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </motion.div>
 
                 <motion.div
@@ -263,7 +263,7 @@ const Footer = () => {
               viewport={{ once: true }}
               className="animate_top"
             >
-              <ul className="flex items-center gap-8">
+              {/* <ul className="flex items-center gap-8">
                 <li>
                   <a href="#" className="hover:text-primary">
                     English
@@ -279,7 +279,7 @@ const Footer = () => {
                     Support
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </motion.div>
 
             <motion.div
@@ -300,9 +300,9 @@ const Footer = () => {
               viewport={{ once: true }}
               className="animate_top"
             >
-              <p>
-                &copy; {new Date().getFullYear()} Solid. All rights reserved
-              </p>
+          <p>
+    &copy; {new Date().getFullYear()} MedicalAI is powered by <a href="https://jedilabs.org" target="_blank" rel="noopener noreferrer">JediLabs.org</a>
+  </p>
             </motion.div>
 
             <motion.div
@@ -323,7 +323,7 @@ const Footer = () => {
               viewport={{ once: true }}
               className="animate_top"
             >
-              <ul className="flex items-center gap-5">
+              {/* <ul className="flex items-center gap-5">
                 <li>
                   <a href="#" aria-label="social icon">
                     <svg
@@ -416,7 +416,7 @@ const Footer = () => {
                     </svg>
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </motion.div>
           </div>
           {/* <!-- Footer Bottom --> */}

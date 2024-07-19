@@ -156,7 +156,7 @@ const Contact = () => {
               </form>
             </motion.div>
 
-            <motion.div
+            {/* <motion.div
               variants={{
                 hidden: {
                   opacity: 0,
@@ -200,7 +200,7 @@ const Contact = () => {
                   <a href="#">+009 42334 6343 843</a>
                 </p>
               </div>
-            </motion.div>
+            </motion.div> */}
           </div>
         </div>
       </section>

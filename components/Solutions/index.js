@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-const FunFact = () => {
+const Solutions = () => {
   return (
     <>
       {/* <!-- ===== Funfact Start ===== --> */}
@@ -56,11 +56,9 @@ const FunFact = () => {
             className="animate_top mx-auto mb-12.5 px-4 text-center md:w-4/5 md:px-0 lg:mb-17.5 lg:w-2/3 xl:w-1/2"
           >
             <h2 className="mb-4 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-            The Impact of Delayed Diagnosis in Pneumonia
-            </h2>
+            MedicalAI by the Numbers: Transforming Pneumonia Diagnosis            </h2>
             <p className="mx-auto lg:w-11/12">
-            Delays in obtaining chest X-rays can significantly impact the timely diagnosis and treatment of pneumonia. Studies indicate that up to 30% of pneumonia cases are misdiagnosed or not diagnosed in a timely manner, leading to complications and increased mortality rates.
-            </p>
+            timely imaging can reduce severe complications by 50%. MedicalAI is committed to addressing these challenges through our innovative AI-powered X-ray analysis platform            </p>
           </motion.div>
 
           <div className="flex flex-wrap justify-center gap-8 lg:gap-42.5">
@@ -83,9 +81,9 @@ const FunFact = () => {
               className="animate_top text-center"
             >
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-              2.56 million 
+              60 seconds
               </h3>
-              <p className="text-lg lg:text-para2">Pneumonia deaths annually</p>
+              <p className="text-lg lg:text-para2">From 24-72 hours to just 60 seconds for initial analysis</p>
             </motion.div>
             <motion.div
               variants={{
@@ -106,9 +104,9 @@ const FunFact = () => {
               className="animate_top text-center"
             >
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-              30%
+              95% accuracy 
               </h3>
-              <p className="text-lg lg:text-para2">Pneumonia cases are misdiagnosed </p>
+              <p className="text-lg lg:text-para2">95% accuracy in detecting pneumonia, matching or exceeding expert radiologists </p>
             </motion.div>
             <motion.div
               variants={{
@@ -129,9 +127,9 @@ const FunFact = () => {
               className="animate_top text-center"
             >
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-              $10 billion annually
+              20 hours
               </h3>
-              <p className="text-lg lg:text-para2">pneumonia-related hospitalizations Cost the U.S. healthcare system</p>
+              <p className="text-lg lg:text-para2">Frees up to 20 hours per week for radiologists to focus on complex cases</p>
             </motion.div>
           </div>
         </div>
@@ -141,4 +139,4 @@ const FunFact = () => {
   );
 };
 
-export default FunFact;
+export default Solutions;
