@@ -52,13 +52,11 @@ const Hero = () => {
                   <video
                     className="shadow-solid-l dark:hidden"
                     src="/images/hero/medical-ai.mp4"
-                    alt="Medical AI Video"
                     controls
                   />
                   <video
                     className="hidden shadow-solid-l dark:block"
                     src="/images/hero/medical-ai.mp4"
-                    alt="Medical AI Video"
                     controls
                   />
                 </div>
