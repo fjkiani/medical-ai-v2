@@ -15,9 +15,7 @@ const Feature = () => {
             headerInfo={{
               title: "Transforming Chest X-Ray Diagnostics with AI",
               subtitle: "Core Features",
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-            ante in maximus.`,
+              description: `Our AI solution is built on state-of-the-art technology and offers the following core features `,
             }}
           />
           {/* <!-- Section Title End --> */}
